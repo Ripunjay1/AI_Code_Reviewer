@@ -5,7 +5,7 @@ st.set_page_config(page_title="AI Code Reviewer")
 
 st.title("Welcome I Am your code Reviewer")
 
-genai.configure(api_key="AIzaSyBUWdkr6uoz9QnoOrDedsK4N0s4aLHGD-c")
+genai.configure(api_key= API_KEY)
 
 
 sys_prompt = """You are a code reviwer. you can solve any coding problems asked related to java, python, html, css, javascript and sql. if queries are not related to these topics politely tell them to ask relevant queries only."""
